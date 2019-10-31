@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+}
+
+
+body{
+    color: #efb810;
+}
+
+.encabezado{
+    background: url(/img/Totogorra.png);
+    background-repeat: no-repeat;
+    background-color: #f7b731;
+    background-position: left;
+    height: 200px;   
+}
+
+.menu{
+    font-family: sans-serif;
+    margin-top: 0px;
+    width: 100%;
+	left: 0;
+	top: 0;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #2e2e2a;
+    line-height: 50px;
+    overflow: auto;
+}
+
+li{
+    width: 150px;
+    float: left;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #efb810;
+    display: block;
+}
+
+a:hover{
+    background: #fab1a0;
+    color: black;
+}
+
+.container{
+    color: #efb810;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.display-1{
+    text-align: center;
+    padding-top: 42px;
+    color: #57606f;
+    font-family: fantasy;
+}
+
+.checkout-subtitle{
+    color:#efb810;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* .slider{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite alternate linear;
+}
+.slider li{
+    list-style: none;
+    width: 65%;
+}
+.slider img{
+    width: 65%;
+}
+
+@keyframes cambio{
+    0%{ margin-left: 0;}
+    20%{ margin-left: 0;}
+
+    25%{ margin-left: -100%;}
+    45%{ margin-left: -100%;}
+
+    50%{ margin-left: -200%;}
+    70%{ margin-left: -200%;}
+
+    75%{ margin-left: -300%;}
+    100%{ margin-left: -300%;}
+} */
+.title{
+    color: #efb810;
+}
